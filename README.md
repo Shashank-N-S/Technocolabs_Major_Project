@@ -1,4 +1,7 @@
-Context:
+# Technolcolabs Machine Learning Internship
+
+## Major Project - Spotify Hit Predictor
+### Context:
 	
 	This is a dataset consisting of features for tracks fetched using Spotify's Web API. The tracks are labeled '1' or '0' ('Hit' or 'Flop') depending on some criterias of the author.
 	This dataset can be used to make a classification model that predicts whether a track would be a 'Hit' or not.
@@ -6,7 +9,7 @@ Context:
 	(Note: The author does not objectively considers a track inferior, bad or a failure if its labeled 'Flop'. 'Flop' here merely implies that it is not a song that probably could not be considered popular in the mainstream.)
 	
 
-Acknowledgement:
+### Acknowledgement:
 	
 	- "spotipy": Python module for Spotify's API (https://pypi.org/project/spotipy/)
 
@@ -15,7 +18,7 @@ Acknowledgement:
 	- Spotify, the company itself. For keeping a database of such in-depth details of every track in their library. And for exposing their API for the world to use.
 
 
-Attributes:
+### Attributes:
 
 	For further reading: https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
@@ -65,3 +68,10 @@ Attributes:
 			- The track's genre must not have a song in the 'hit' list.
 			- The genre list for the particular decades are as follows:
 			- The track must have 'US' as one of its markets.
+
+Web Application Link: https://spotify-hit-predictor.herokuapp.com/
+
+## Deployed Web App Demo
+![alt text](https://github.com/Shashank-N-S/Technocolabs_Major_Project/blob/master/Screenshots/Screenshot%20(6).png)
+### Prediction
+![alt text](https://github.com/Shashank-N-S/Technocolabs_Major_Project/blob/master/Screenshots/Screenshot%20(8).png)
